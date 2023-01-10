@@ -1,8 +1,6 @@
 name: '[Support] Synchronize team members in the .env file'
 on:
-  schedule:
-    # Daily
-    - cron: '0 5 * * *'
+  workflow_dispatch:
 permissions:
   repository-projects: write
 
