@@ -1,7 +1,5 @@
 name: '[SRP] Secure Release Pipeline Report'
 on:
-  schedule:
-    - cron: '0 7 * * *'
   workflow_dispatch:
 
 env:
