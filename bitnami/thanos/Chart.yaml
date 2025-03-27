@@ -22,6 +22,9 @@ dependencies:
   tags:
   - bitnami-common
   version: 2.x.x
+- name: istio-virtualservice
+  version: 0.1.11
+  repository: s3://giffgaff-charts
 description: Thanos is a highly available metrics system that can be added on top of existing Prometheus deployments, providing a global query view across all Prometheus installations.
 home: https://bitnami.com
 icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/thanos/img/thanos-stack-220x234.png
@@ -36,4 +39,4 @@ maintainers:
 name: thanos
 sources:
 - https://github.com/bitnami/charts/tree/main/bitnami/thanos
-version: 15.13.2
+version: 15.13.3

@@ -1,9 +1,12 @@
 dependencies:
 - name: minio
   repository: oci://registry-1.docker.io/bitnamicharts
-  version: 15.0.5
+  version: 15.0.7
 - name: common
   repository: oci://registry-1.docker.io/bitnamicharts
   version: 2.30.0
-digest: sha256:c21010fcd391c9564b494e001720005981d7e2ef81aa9ea473e18b7a9324567d
-generated: "2025-03-05T05:09:56.729039288Z"
+- name: istio-virtualservice
+  repository: s3://giffgaff-charts
+  version: 0.1.11
+digest: sha256:2bc37d6c4464990eda10caad18abf0c7963678e4833337e4291243e2c5b521b0
+generated: "2025-03-27T16:42:38.008994Z"
