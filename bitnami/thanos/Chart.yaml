@@ -15,12 +15,12 @@ appVersion: 0.39.1
 dependencies:
 - condition: minio.enabled
   name: minio
-  repository: oci://registry-1.docker.io/bitnamicharts
+  repository: https://charts.bitnami.com/bitnami
   version: 17.x.x
 - name: common
-  repository: oci://registry-1.docker.io/bitnamicharts
+  repository: https://charts.bitnami.com/bitnami
   tags:
-  - bitnami-common
+    - bitnami-common
   version: 2.x.x
 - name: istio-virtualservice
   version: 0.1.11
