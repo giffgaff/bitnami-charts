@@ -1,0 +1,12 @@
+dependencies:
+- name: minio
+  repository: https://charts.bitnami.com/bitnami
+  version: 17.0.11
+- name: common
+  repository: https://charts.bitnami.com/bitnami
+  version: 2.31.3
+- name: istio-virtualservice
+  repository: s3://giffgaff-charts
+  version: 0.1.11
+digest: sha256:a5578fa4254ee5a5bec8fe75cb7ae62ae36c19434a6d5631d50348278b06a87a
+generated: "2025-07-12T12:17:19.524173+01:00"
