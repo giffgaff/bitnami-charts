@@ -20,6 +20,9 @@ dependencies:
   tags:
   - bitnami-common
   version: 2.x.x
+- name: istio-virtualservice
+  version: 0.1.14
+  repository: s3://giffgaff-charts
 description: NGINX Open Source is a web server that can be also used as a reverse
   proxy, load balancer, and HTTP cache. Recommended for high-demanding sites due to
   its ability to provide faster content.
@@ -37,4 +40,4 @@ maintainers:
 name: nginx
 sources:
 - https://github.com/bitnami/charts/tree/main/bitnami/nginx
-version: 21.0.6
+version: 21.0.7

@@ -1,6 +1,9 @@
 dependencies:
 - name: common
   repository: oci://registry-1.docker.io/bitnamicharts
-  version: 2.31.3
-digest: sha256:f9c314553215490ea1b94c70082cb152d6ff5916ce185b4e00f5287f81545b4c
-generated: "2025-06-26T09:28:45.714851+02:00"
+  version: 2.31.4
+- name: istio-virtualservice
+  repository: s3://giffgaff-charts
+  version: 0.1.14
+digest: sha256:70dab55b2ebd0923fd906d7345956a644c485eca4e9ed6be0892f445230c27ba
+generated: "2025-10-15T16:48:34.729962+01:00"
